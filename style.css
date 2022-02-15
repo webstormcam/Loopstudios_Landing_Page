@@ -17,11 +17,16 @@ header{
    align-items: center;
     background-image: url('imgs/desktop/image-hero.jpg');
     background-repeat: no-repeat;
-    background-position: center;
-   
+    background-size: cover;
     width: 100%;
+    background-position: center;
     
 }
+
+   
+  
+    
+
 
 #header_items{
     width: 85%;
@@ -41,8 +46,19 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
   
     
+}
+
+
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    padding: 1rem 2rem;
+    border: 2px solid white; 
+    margin-bottom: 10rem;
 }
