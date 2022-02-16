@@ -15,7 +15,7 @@ header{
     display: flex;
     flex-direction: column;
    align-items: center;
-    background-image: url('imgs/desktop/image-hero.jpg');
+    background-image: url('imgs/mobile/image-hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -115,7 +115,23 @@ ul{
     border-bottom: 1px solid #fff
 }
 
+main{
+    width: 100%;
+}
+
+.section1-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+}
+
 @media screen and (min-width:768px) {
+
+    header{
+        background-image: url('imgs/desktop/image-hero.jpg');
+    }
+
 
     #dropdown{
         display: none !important;
