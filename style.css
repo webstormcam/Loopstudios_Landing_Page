@@ -148,3 +148,19 @@ ul{
 
     }
     }
+
+    @media screen and (min-width:1440px){
+        #header_items{
+            max-width: 1200px;
+        }
+
+        h1{
+            font-size: 72px;
+            max-width: 650px;
+            padding: 40px;
+        }
+
+        #logo{
+            width: 192px;
+        }
+    }
