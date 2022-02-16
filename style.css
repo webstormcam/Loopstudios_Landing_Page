@@ -22,6 +22,8 @@ header{
     background-position: center;
     z-index: 0;
     
+   
+    
 }
 
 #overlay{
@@ -68,7 +70,36 @@ h1{
     font-family: 'Josefin Sans', sans-serif;
     color: #fff;
     font-size: 40px;
-    padding: 1rem 2rem;
+    padding: 1rem 3rem 1rem 1rem;
     border: 2px solid white; 
-    margin-bottom: 12rem;
+    margin-bottom: 13rem;
+    max-width: 500px;
+}
+
+ul{
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    h1{
+        font-size: 50px;
+    }
+
+    #ham{
+        display: none;
+    }
+
+    ul{
+        display: flex;
+        width: 350px;
+        justify-content: space-around;
+    }
+
+    li a{
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Alata', sans-serif;
+        font-size: 15px;
+    }
+    }
 }
