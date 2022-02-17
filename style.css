@@ -140,8 +140,38 @@ main{
   
 }
 
+.img-overlay{
+    background-color:rgba(0, 0, 0, 0.315);
+    z-index: 500;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .vr-guy{
     width: 100%;
+    z-index: 0;
+}
+
+.words-section{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    color: #000;
+    font-size: 32px;
+}
+
+.words-section p{
+    font-family: 'Alata', sans-serif;
+    color: grey;
+    line-height: 1.5rem;
+    margin-top: 1rem;
 }
 
 @media screen and (min-width:768px) {
