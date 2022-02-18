@@ -215,14 +215,23 @@ h2{
     .section1-items{
         display: flex;
         flex-direction: row;
+        position: relative;
+        max-width: 1200px;
     }
 
    .img-overlay{
-       width: 50%;
+       width: 80%;
+       
    }
+   
 
    .words-section{
-       width: 50%;
+       width: 40%;
+       position: relative;
+       max-width: 541px;
+       right: 2rem;
+       z-index: 500;
+       background-color: #fff;
    }
     }
 
@@ -239,5 +248,39 @@ h2{
 
         #logo{
             width: 192px;
+        }
+
+        h2{
+            font-size: 48px;
+            width: 541px;
+        }
+
+        .words-section p{
+            width: 541px;
+        }
+
+        .words-section{
+            padding: 4rem;
+            width: 60%;
+            text-align: left;
+            top: 7rem;
+            right: 9rem;
+            padding-left: 5rem;
+            align-items: initial;
+        }
+
+        .vr-guy{
+            width: auto;
+        }
+
+        .img-overlay{
+            
+        width: 731px;
+
+            
+        }
+
+        .words-section{
+            width: 541px;
         }
     }
