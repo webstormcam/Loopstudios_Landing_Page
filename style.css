@@ -211,6 +211,19 @@ h2{
         border-bottom: 1px solid white;
 
     }
+
+    .section1-items{
+        display: flex;
+        flex-direction: row;
+    }
+
+   .img-overlay{
+       width: 50%;
+   }
+
+   .words-section{
+       width: 50%;
+   }
     }
 
     @media screen and (min-width:1440px){
