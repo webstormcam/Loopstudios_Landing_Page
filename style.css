@@ -283,4 +283,12 @@ h2{
         .words-section{
             width: 541px;
         }
+
+        ul{
+            width: 450px;
+        }
+
+        main{
+            margin-top: 10rem;
+        }
     }
