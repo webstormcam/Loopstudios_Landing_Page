@@ -208,9 +208,9 @@ h3{
     color: #fff;
     font-size: 24px;
     margin-left: 1rem;
-  
+  text-align: left;
     text-align: center;
-    width: 80px;
+    width: 98px;
 }
 
 .game{
@@ -233,6 +233,14 @@ h3{
     
 }
 
+.soccerTeam{
+    background-image: url('imgs/mobile/image-soccer-team.jpg');
+}
+
+.theGrid{
+    background-image: url('imgs/mobile/image-grid.jpg');
+}
+
 .overlay_block{
         background-color: rgba(24, 23, 23, 0.555);
         height: 100%;
@@ -241,6 +249,7 @@ h3{
         display: flex;
     align-items: center;
         z-index: 500;
+        
       
     
 }
