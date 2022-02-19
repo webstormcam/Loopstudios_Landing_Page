@@ -179,7 +179,7 @@ h2{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 
 .section2-items{
@@ -202,6 +202,7 @@ h2{
 
 .creation{
     margin-bottom: 2rem;
+   text-align: left;
 }
 
 h3{
@@ -252,6 +253,11 @@ h3{
         
       
     
+}
+
+
+.no-mobile{
+    display: none;
 }
 
 @media screen and (min-width:768px) {
@@ -329,8 +335,8 @@ h3{
    }
 
    #section2-grid{
-    grid-template-columns: repeat(auto-fill,256px );
-    justify-content: flex-start;
+    grid-template-columns: 1fr 1fr;
+   justify-content: space-between;
    
 }
 
@@ -367,6 +373,35 @@ h3{
     
 }
 
+.no-desktop{
+    display: none;
+}
+
+.no-mobile{
+    display: block;
+}
+
+.section-2-header{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 4rem;
+}
+
+
+
+
+    }
+
+    @media screen and (min-width:940px){
+        #section2-grid{
+            grid-template-columns: repeat(auto-fill,256px );
+           justify-content: space-between;
+           
+        }
     }
 
     @media screen and (min-width:1024px){
@@ -374,6 +409,8 @@ h3{
           
             padding-left: 2rem;
         }
+
+       
     }
 
     @media screen and (min-width:1125px){
