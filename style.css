@@ -389,6 +389,30 @@ h3{
     
 }
 
+.soccerTeam{
+    background-image: url('imgs/desktop/image-soccer-team.jpg');
+}
+
+.theGrid{
+    background-image: url('imgs/desktop/image-grid.jpg');
+}
+
+.FromUp{
+    background-image: url('imgs/desktop/image-from-above.jpg');
+}
+
+.Borealis{
+    background-image: url('imgs/desktop/image-pocket-borealis.jpg');
+}
+
+.Curiosity{
+    background-image: url('imgs/desktop/image-curiosity.jpg');
+}
+
+.Fisheye{
+    background-image: url('imgs/desktop/image-fisheye.jpg');
+}
+
 .no-desktop{
     display: none;
 }
