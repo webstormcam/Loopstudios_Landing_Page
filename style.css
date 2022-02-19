@@ -234,7 +234,7 @@ h3{
 }
 
 .overlay_block{
-        background-color: rgba(24, 23, 23, 0.363);
+        background-color: rgba(24, 23, 23, 0.555);
         height: 100%;
         width: 100%;
         display: flex;
@@ -327,8 +327,23 @@ h3{
 
 .game{
     height: 450px;
+
     
     
+}
+
+.overlay_block{
+  
+align-items: flex-end;
+    z-index: 500;
+  
+
+}
+
+h3{
+    position: relative;
+    bottom: 1rem;
+    font-size: 32px;
 }
 
 .deepEarth{
@@ -336,6 +351,13 @@ h3{
     background-repeat: no-repeat;
     
 }
+
+
+.nightArcade{
+    background-image: url('imgs/desktop/image-night-arcade.jpg');
+    
+}
+
     }
 
     @media screen and (min-width:1024px){
