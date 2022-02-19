@@ -242,6 +242,22 @@ h3{
     background-image: url('imgs/mobile/image-grid.jpg');
 }
 
+.FromUp{
+    background-image: url('imgs/mobile/image-from-above.jpg');
+}
+
+.Borealis{
+    background-image: url('imgs/mobile/image-pocket-borealis.jpg');
+}
+
+.Curiosity{
+    background-image: url('imgs/mobile/image-curiosity.jpg');
+}
+
+.Fisheye{
+    background-image: url('imgs/mobile/image-fisheye.jpg');
+}
+
 .overlay_block{
         background-color: rgba(24, 23, 23, 0.555);
         height: 100%;
@@ -396,7 +412,7 @@ h3{
 
     }
 
-    @media screen and (min-width:940px){
+    @media screen and (min-width:1000px){
         #section2-grid{
             grid-template-columns: repeat(auto-fill,256px );
            justify-content: space-between;
