@@ -1,5 +1,10 @@
 let ham = document.getElementById('ham');
 let drop = document.getElementById('dropdown')
+let games = document.querySelectorAll('.overlay_block').forEach(item =>{
+    item.addEventListener('click', event =>{
+    item.style.backgroundColor ='red'
+    })
+})
 
 
 ham.addEventListener('click',function(){
@@ -20,3 +25,16 @@ if(ham.getAttribute('src') ==='imgs/icon-close.svg'){
     
 }
 });
+
+
+
+
+// games.addEventListener('mouseover',function(){
+//     console.log('hello')
+//     games.style.backgroundColor ='red'
+// });
+
+// games.addEventListener('mouseout',function(){
+//     console.log('good bye')
+//     games.style.backgroundColor ='intial'
+// });
