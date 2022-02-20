@@ -273,6 +273,10 @@ h3{
     
 }
 
+.overlay_block:hover{
+    cursor: pointer;
+}
+
 
 .no-mobile{
     display: none;
