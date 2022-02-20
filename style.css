@@ -307,6 +307,11 @@ h3{
         background-image: url('imgs/desktop/image-hero.jpg');
     }
 
+    .creation{
+        margin-bottom: 0rem;
+      
+    }
+
 
     #dropdown{
         display: none !important;
@@ -449,7 +454,7 @@ h3{
 .section-2-header{
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
