@@ -282,6 +282,25 @@ h3{
     display: none;
 }
 
+.no-desktop{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.button{
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 1rem 3rem;
+    font-weight: bold;
+}
+
+.button:hover{
+    color: #fff;
+    background-color: black;
+}
+
 @media screen and (min-width:768px) {
 
     header{
