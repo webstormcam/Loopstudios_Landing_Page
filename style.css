@@ -339,6 +339,13 @@ footer{
     margin-top: 1.5rem;
 }
 
+.game{
+    height: 120px;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 @media screen and (min-width:768px) {
@@ -427,10 +434,7 @@ footer{
 }
 
 .game{
-    height: 450px;
-
-    
-    
+    height: 450px;   
 }
 
 .overlay_block{
