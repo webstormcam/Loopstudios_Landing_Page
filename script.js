@@ -3,12 +3,12 @@ let drop = document.getElementById('dropdown')
 let games = document.querySelectorAll('.overlay_block').forEach(item =>{
     item.addEventListener('mouseover', event =>{
     item.style.backgroundColor ='rgba(219, 211, 208, 0.79)'
-    item.style.color ='red'
+    item.firstElementChild.style.color ='black'
    
     })
     item.addEventListener('mouseout',event=>{
         item.style.backgroundColor='rgba(24, 23, 23, 0.555)'
-        item.style.color ='blue'
+        item.firstElementChild.style.color ='white'
     })
 })
 

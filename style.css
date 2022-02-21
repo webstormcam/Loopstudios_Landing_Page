@@ -207,7 +207,7 @@ h2{
    text-align: left;
 }
 
-h3{
+.overlay_block p{
     color: #fff;
     font-size: 24px;
     margin-left: 1rem;
@@ -216,14 +216,9 @@ h3{
     width: 98px;
 }
 
-.game{
-    height: 120px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    z-index: 0;
-    
-}
+
+
+
 
 .deepEarth{
     background-image: url('imgs/mobile/image-deep-earth.jpg');
@@ -446,7 +441,7 @@ align-items: flex-end;
 
 }
 
-h3{
+.overlay_block p{
     position: relative;
     bottom: 1rem;
     font-size: 32px;
