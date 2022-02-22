@@ -304,6 +304,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .footer-items{
@@ -344,6 +345,27 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.socials_copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 150px;
+}
+
+.grey{
+    color: grey;
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    margin-top: 1rem;
 }
 
 
