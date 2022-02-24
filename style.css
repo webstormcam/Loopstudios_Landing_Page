@@ -368,6 +368,15 @@ footer{
     margin-top: 1rem;
 }
 
+.socials img{
+    padding-bottom: 0.5rem;
+}
+
+.socials img:hover{
+ border-bottom: 1px solid white;
+ cursor: pointer;
+}
+
 
 
 @media screen and (min-width:768px) {
@@ -446,7 +455,7 @@ footer{
    }
 
    h2{
-       font-size: 1.4rem;
+       font-size: 2rem;
    }
 
    #section2-grid{
