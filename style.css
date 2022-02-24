@@ -368,6 +368,10 @@ footer{
     margin-top: 1rem;
 }
 
+.socials{
+    width: 200px;
+}
+
 .socials img{
     padding-bottom: 0.5rem;
 }
