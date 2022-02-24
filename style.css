@@ -527,6 +527,24 @@ align-items: flex-end;
     margin-bottom: 4rem;
 }
 
+.socials_copyright{
+    align-items: flex-end;
+}
+
+.footer_ul{
+    flex-direction: row;
+}
+
+
+.footer-items{
+    flex-direction: row;
+   
+}
+
+.logo_links{
+    align-items: flex-start;
+}
+
 
 
 
