@@ -529,15 +529,19 @@ align-items: flex-end;
 
 .socials_copyright{
     align-items: flex-end;
+    margin-top: 0rem;
 }
 
 .footer_ul{
     flex-direction: row;
+    justify-content: space-between;
 }
 
 
 .footer-items{
     flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
    
 }
 
